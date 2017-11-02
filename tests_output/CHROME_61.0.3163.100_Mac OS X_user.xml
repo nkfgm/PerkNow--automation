@@ -1,13 +1,94 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="6">
 
   <testsuite name="user"
     errors="0" failures="0" hostname="" id="" package="user" skipped="0"
-    tests="1" time="7.766" timestamp="Fri, 27 Oct 2017 22:07:03 GMT">
+    tests="6" time="88.56" timestamp="Thu, 02 Nov 2017 21:09:10 GMT">
   
-    <testcase name="Create an Account" classname="user" time="7.766" assertions="2">
+    <testcase name="Create an Account with email" classname="user" time="19.76" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User-Create an account using code" classname="user" time="20.33" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="User-Login with new account" classname="user" time="7.125" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="User-Attempt to login with invalid email" classname="user" time="8.966" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="User-Login and view deals(including featured deal(s))" classname="user" time="20.48" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User-Select and redeem deal" classname="user" time="11.89" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 

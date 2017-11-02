@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="1"
             failures="0"
-            tests="1">
+            tests="3">
 
   <testsuite name="user"
-    errors="1" failures="0" hostname="" id="" package="user" skipped="0"
-    tests="1" time="0.009000" timestamp="Fri, 27 Oct 2017 21:51:10 GMT">
+    errors="1" failures="0" hostname="" id="" package="user" skipped="2"
+    tests="3" time="0.01300" timestamp="Thu, 02 Nov 2017 19:45:41 GMT">
   
-    <testcase name="Create an Account" classname="user" time="0.009000" assertions="0">
+    <testcase name="User-Login and view deals(including featured deal(s)" classname="user" time="0.01300" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [User / Create an Account]:
+        Error while running [User / User-Login and view deals(including featured deal(s)]:
 
-  TypeError: Cannot read property 'zipCode' of undefined
-    at Object.Create an Account (/Users/mitchyberry/DevMtn/projects/PerkNow--automation/nightwatch/tests/user.js:30:47)
+  TypeError: Cannot read property 'waitForElementVisible' of undefined
+    at Object.User-Login and view deals(including featured deal(s) (/Users/mitchyberry/DevMtn/projects/PerkNow--automation/nightwatch/tests/user.js:56:9)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -29,6 +29,18 @@
     </system-err>
   
 
+  
+    
+    <testcase
+      name="User-Create an account using code" classname="user">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="User-Select and redeem deal" classname="user">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
